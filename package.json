@@ -1,0 +1,27 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "Weather App built on Dark Sky API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rahultoora1008/Weather-App.git"
+  },
+  "author": "rahultoora1008",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahultoora1008/Weather-App/issues"
+  },
+  "homepage": "https://github.com/rahultoora1008/Weather-App#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
+}
